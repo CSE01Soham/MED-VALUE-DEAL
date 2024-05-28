@@ -17,7 +17,7 @@ app.get('/',(req,res)=>{
 
 
 app.use(cors({
-    origin: 'http://localhost:3000'
+    origin: 'med-value-deal.vercel.app'
 }));
 
 app.use('/api/v1/medicine',medicine_details)
